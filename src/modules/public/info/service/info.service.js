@@ -7,7 +7,7 @@ const list = async (ctx) => {
 
     let result = await actorModel.findAll({
         attributes: _attributes,
-        limit: 1000,
+        limit: 10,
         logging: true
     }).then(async data =>{
 

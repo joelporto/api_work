@@ -34,6 +34,8 @@ const init = async () => {
 
       app.use(loggerMiddleware());
 
+      app.use()
+
       app.use(
         koaCors({
           origin: true,

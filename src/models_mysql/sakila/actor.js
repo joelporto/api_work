@@ -10,11 +10,11 @@ const actor = sequelizeSakila.define('actor', {
         field: 'actor_id'
     },
     firtName:{
-        type: Sequelize.INTEGER(45),
+        type: Sequelize.STRING(45),
         field: 'first_name'
     },
     lastName:{
-        type: Sequelize.INTEGER(45),
+        type: Sequelize.STRING(45),
         field: 'last_name'
     },
     lastUpdate:{
